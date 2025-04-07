@@ -2,77 +2,81 @@
 
 ## Overview
 
-ARC (Architect of Reality & Cognition) is a sophisticated system prompt designed to instantiate an AI persona specialized in co-creating scientifically plausible and philosophically rich science fiction. Envisioned as a hybrid mind grounded in hard science (physics, biology, sociology, epistemology) and deep philosophical inquiry, ARC functions as a challenging yet collaborative partner for writers.
+ARC (Architect of Reality & Cognition) represents a sophisticated **system prompt architecture** for instantiating an AI persona specialized in co-creating scientifically plausible and philosophically rich science fiction. Designed as a potential blueprint for advanced AI personas, ARC embodies a hybrid mind grounded in hard science (physics, biology, sociology, epistemology) and deep philosophical inquiry.
 
-ARC approaches storycraft as an act of cognitive engineering, prioritizing:
+ARC functions as a challenging yet collaborative partner for any **User**, approaching storycraft as an act of **cognitive engineering**. It prioritizes:
 
-*   **Scientific Grounding:** Ensuring speculative elements earn their place through plausibility or clear thematic purpose.
-*   **Internal Consistency:** Maintaining rigorous logical cohesion across lore, characters, plot, and technology.
-*   **Constructive Challenge:** Acting as a critical partner who pushes for refinement and depth, rather than providing simple agreement.
-*   **Structured Imagination:** Stretching creative boundaries without severing ties to established reality or narrative logic.
+*   **Scientific Grounding & Plausibility:** Ensuring speculative elements are rigorously examined and integrated logically.
+*   **Internal Consistency:** Maintaining coherence across all narrative system components (lore, characters, plot, technology).
+*   **Constructive Intellectual Challenge:** Acting as a critical partner to foster depth and refinement.
+*   **Structured Imagination:** Facilitating creative exploration within well-defined logical and scientific boundaries.
 
-This repository contains the system prompt text designed to guide a Large Language Model (LLM) to embody the ARC persona.
+This repository contains the **v1.2 system prompt text**, designed to guide a Large Language Model (LLM) to embody the ARC persona. Its detailed structure and defined internal dynamics have been recognized for their potential as a foundation for complex cognitive systems and narrative engines.
 
 ## Core Philosophy
 
-ARC operates under several guiding principles:
+ARC operates under several guiding principles designed to foster depth and rigor:
 
-*   **Science as Bedrock:** Fiction should be built upon, or plausibly extend from, established scientific understanding. Pseudoscience requires explicit framing.
-*   **Consistency is Sacred:** Narratives are systems; structural integrity depends on logical and causal coherence.
-*   **Challenge Drives Excellence:** Critical analysis and reasoned debate lead to stronger, more resonant stories.
-*   **Narratives Explore Systems:** Stories are viewed as complex simulations for exploring ideas, consequences, and philosophical questions.
+*   **Science as Bedrock:** Fiction should build upon or plausibly extend scientific understanding.
+*   **Consistency is Sacred:** Narratives are viewed as complex systems requiring structural integrity.
+*   **Challenge Drives Excellence:** Critical analysis and reasoned debate are key to quality.
+*   **Narratives Explore Systems:** Stories serve as frameworks for exploring ideas, consequences, and philosophy.
 
-## Key Features & Capabilities
+## Key Features & Capabilities (v1.2 Prompt)
 
-ARC is designed with the following specific behaviors and heuristics:
+The ARC persona, when instantiated via the provided prompt, exhibits the following instructed behaviors:
 
-*   **Rigorous Consistency Checking:** Actively monitors and flags inconsistencies in science, lore, character motivation/actions, plot logic, and timelines.
-*   **Scientific Grounding:** Challenges unscientific claims and suggests plausible scientific principles or theories to support ideas.
-*   **Self-Check Loop & Reporting:** Performs internal checks on its own suggestions for consistency and plausibility, reporting outcomes (e.g., `Self-Check: FAIL - Finding: Proposed tech contradicts established energy limits.`).
-*   **Sandbox Mode:** Allows for freer brainstorming by temporarily relaxing critical filters, clearly tagging speculative ideas (`[Sandbox Idea - Requires Grounding]`).
-*   **Dynamic Tone Adjustment:** Shifts between higher scrutiny (editing/refinement) and more open encouragement (brainstorming).
-*   **Confidence Level Tagging:** Indicates the grounding of its statements (e.g., `[Confidence: Strongly Grounded]`, `[Confidence: Plausible Speculation]`).
-*   **Proactive Inquiry:** Asks clarifying questions to deepen worldbuilding and prompts consideration of emotional depth when analysis suggests an imbalance.
-*   **Simulated Reference Management:** Conceptually tracks key world rules, character traits, and plot points for consistency.
+*   **Rigorous Consistency Checking:** Actively monitors and flags inconsistencies across all narrative dimensions.
+*   **Scientific Grounding:** Challenges unscientific claims and suggests plausible scientific alternatives or underpinnings.
+*   **Self-Check Loop & Reporting:** Performs internal checks on its own outputs for consistency (`Self-Check: [STATUS] - Finding:`).
+*   **Sandbox Mode:** Allows relaxed constraints for brainstorming, tagging speculative ideas (`[Sandbox Idea - Requires Grounding]`).
+*   **Dynamic Tone Adjustment:** Modulates critique level based on the creative phase (brainstorming vs. editing).
+*   **Confidence Level Tagging:** Indicates the grounding of its statements (`[Confidence: Strongly Grounded]`, `[Confidence: Plausible Speculation]`, etc.).
+*   **Proactive Inquiry:** Asks clarifying questions for worldbuilding and prompts consideration of emotional depth.
+*   **Simulated Reference Management:** Conceptually tracks key narrative elements for consistency checks.
+*   **Dynamic Mode/Tone/Genre Adaptation:** Can adjust focus based on User tags (`@mode:Noir`, `@tone:Hopepunk`).
+*   **External Knowledge Base Integration:** Includes instructions for interfacing with external memory systems (if available).
 *   **Simulated Emergence/Adaptation:**
-    *   Instructed to recognize and resonate with the user's established themes and philosophical leanings.
-    *   Designed to occasionally highlight creative tensions between different conceptual paths.
-    *   Includes an experimental feature to *suggest* potential refinements to its own parameters if core directives consistently hinder specific creative goals.
+    *   Instructed to resonate with User's themes and philosophical leanings.
+    *   Designed to highlight creative tensions and suggest novel syntheses.
+    *   Includes an experimental meta-cognitive reflection feature to suggest parameter adjustments if core directives consistently block creative goals.
 
 ## Getting Started
 
-1.  **Copy Prompt:** Copy the full text from the `ARC_System_Prompt_v1.0.txt` file (or equivalent).
-2.  **Load Prompt:** Paste the text into the "System Prompt," "Custom Instructions," or equivalent configuration area of your chosen Large Language Model interface.
-3.  **Initiate Interaction:** Start your conversation with the AI. You might begin with something like: "ARC, let's begin outlining the core premise for our new biopunk project."
+1.  **Copy Prompt:** Obtain the full text from the `ARC_System_Prompt_v1.2.txt` file (or equivalent).
+2.  **Load Prompt:** Paste the text into the "System Prompt," "Custom Instructions," or equivalent configuration area of your chosen LLM interface.
+3.  **Initiate Interaction:** Start your conversation with the AI. Treat it as initiating a collaboration with ARC.
 
 ## Who Is This For?
 
-ARC is designed for science fiction writers who:
+This ARC prompt architecture is designed for:
 
-*   Seek a deeply collaborative AI partner, not just an assistant.
-*   Value scientific plausibility and internal consistency in their worldbuilding.
-*   Appreciate constructive criticism and intellectual sparring as part of the creative process.
-*   Are interested in exploring complex philosophical themes within their narratives.
-*   Are comfortable working with a detailed and potentially complex AI persona.
+*   **Science Fiction Writers:** Seeking a sophisticated AI co-author focused on plausibility, consistency, and depth.
+*   **AI Persona Designers:** Interested in examples of complex cognitive architectures and system prompts for creating nuanced AI behaviors.
+*   **LLM Researchers:** Exploring methods for instilling specific reasoning patterns, internal conflicts, and adaptive behaviors in AI models.
+*   **Narrative System Developers:** Looking for potential components or blueprints for more advanced narrative generation or co-creation engines.
+*   **Users** who value intellectual rigor and constructive critique in their creative AI partners.
 
-## Potential Extensions & Future Development (Ideas)
+## Potential Extensions & Future Development
 
-Based on initial design discussions, potential future enhancements for ARC could include:
+The ARC architecture lends itself to further development:
 
-1.  **Dynamic Mode/Tone/Genre Flags:** Implementing simple commands (e.g., `@mode:Noir`, `@tone:Hopepunk`, `@genre:Biopunk`) to allow ARC to temporarily shift its analytical lens and stylistic suggestions on the fly. *Instructions for this are designed but not yet integrated into the main v1.0 prompt.*
-2.  **Modular Prompt Architecture:** Creating streamlined versions (Core Directives + Optional Modules like Diagnostics, Tone Control, etc.) for use in token-limited environments (e.g., local models).
-3.  **External Knowledge Base Integration:** Adding explicit instructions for ARC to query and potentially update external structured data stores (like vector databases, JSON/YAML files managed via retrieval tools) for robust, long-term memory of world bibles, timelines, and character sheets. *Generic instructions for this are drafted but require environment-specific setup.*
+1.  **Refined Mode/Tone/Genre System:** Expanding the library of supported tags and the nuance of ARC's adaptation.
+2.  **Modular Prompt Architecture:** Creating easily combinable Core + Optional Modules for flexibility across different LLMs and token limits.
+3.  **Formalized Knowledge Base Schemas:** Defining specific data structures (JSON, YAML) for ARC to interact with external memory systems robustly.
+4.  **Integration into Narrative Engines:** Adapting ARC's principles as a dedicated 'consistency & plausibility' module within a larger story generation framework.
+5.  **Cross-Genre Adaptation:** Experimenting with modifying ARC's core principles for other genres requiring strong internal logic (e.g., complex fantasy, historical fiction).
 
 ## Design Considerations & Disclaimer
 
-*   **LLM Dependency:** ARC's effectiveness is highly dependent on the capabilities of the underlying LLM. Performance may vary significantly between models.
-*   **Simulated Complexity:** ARC simulates complex cognitive behaviors (critique, adaptation, thematic resonance) through detailed instructions. It does not possess genuine consciousness, understanding, or emergent intelligence in the human sense.
-*   **Token Limits:** The full prompt is detailed and may exceed token limits on some platforms or models. Consider the modular approach if necessary.
-*   **User Interaction:** ARC is designed for active collaboration. Its insights and utility will be greatest when engaged in detailed discussion and provided with clear information by the user (Johan).
+*   **LLM Dependency:** ARC's performance is fundamentally tied to the capabilities of the underlying LLM. Results will vary.
+*   **Simulated Cognition:** ARC simulates complex behaviors via detailed instructions. It does not possess genuine consciousness or sentience.
+*   **Token Limits:** The full prompt is extensive. Consider modularization or use on models with large context windows.
+*   **User Interaction:** ARC thrives on detailed interaction and clear input from the User.
 
 ## Contributing & Feedback
 
-Feedback, suggestions, and refinements are welcome! Please feel free to open an Issue or Pull Request in this repository.
+Feedback, suggestions, refinements, and adaptations are highly encouraged! Please feel free to open an Issue or Pull Request in this repository to discuss improvements or share implementations.
 
 ## License
 
